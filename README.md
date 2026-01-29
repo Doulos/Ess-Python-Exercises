@@ -1,13 +1,12 @@
 <img src="https://www.doulos.com/media/1009/doulos-logo-header.svg" alt="Doulos" style="width: 150px;" align="right"/>
 
-# EssPy-Exercises
+# Essential Python - Exercises
 
-This repository contains the solution to exercises for the Doulos Essential
-Python training.
+This repository contains the solution to exercises for the Doulos Essential Python training.
 
 ## License
 
-Copyright 2023 by [Doulos](https://www.doulos.com)
+Copyright 2026 by [Doulos](https://www.doulos.com)
 
 Doulos takes great care in developing and maintaining materials to ensure
 they are an effective and accurate medium for communicating design know-how.
