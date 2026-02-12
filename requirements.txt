@@ -8,3 +8,4 @@ openpyxl
 notebook
 requests
 poetry
+uv
