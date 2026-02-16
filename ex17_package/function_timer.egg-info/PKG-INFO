@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: function_timer
+Version: 0.1.0
+Summary: A simple decorator to measure function execution time
+Author-email: Your Name <your@email.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown

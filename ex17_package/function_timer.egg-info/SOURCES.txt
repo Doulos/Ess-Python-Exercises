@@ -1,0 +1,7 @@
+pyproject.toml
+function_timer.egg-info/PKG-INFO
+function_timer.egg-info/SOURCES.txt
+function_timer.egg-info/dependency_links.txt
+function_timer.egg-info/top_level.txt
+timer_utility/__init__.py
+timer_utility/decorator.py

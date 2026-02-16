@@ -4,10 +4,8 @@ import numpy as np
 def plot_graph(func):
   """
   Decorator to plot the output of a function using matplotlib.
-
   Args:
     func: The function to decorate.
-
   Returns:
     A function that calls the original function and plots its output.
   """

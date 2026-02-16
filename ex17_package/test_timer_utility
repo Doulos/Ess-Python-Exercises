@@ -1,0 +1,7 @@
+from timer_utility import timeit
+
+@timeit
+def my_func():
+    return sum(range(1000000))
+
+my_func()

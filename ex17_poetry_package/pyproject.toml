@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "deco-pack"
+name = "poetry_plot_pack"
 version = "0.1.0"
 description = "Package for decorator to plot functions"
 authors = ["Your Name <you@example.com>"]
@@ -13,3 +13,7 @@ matplotlib = "^3.7"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+# This creates a terminal command 'run-plot' that executes main() in main.py
+run-plot = "main:main"
