@@ -1,0 +1,82 @@
+cd ..
+uv build
+cd plot_decorator_pkg
+nano decorator.py 
+cd ..
+uv build
+cd plot_decorator_pkg
+nano decorator.py 
+cd ..
+uv build
+cd plot_decorator_pkg
+cat decorator.py 
+nano decorator.py 
+cd ..
+uv build
+cd
+cd test_env/
+source .venv/bin/activate
+pip install ../plot_decorator_pkg/dist/plot_decorator_pkg-0.1.0-py3-none-any.whl
+python run_plot.py 
+deactivate
+cd ..
+cd plot_decorator_pkg/
+uv build
+cd 
+cd test_env/
+pip install ../plot_decorator_pkg/dist/plot_decorator_pkg-0.1.0-py3-none-any.whl
+source .venv/bin/activate
+pip install ../plot_decorator_pkg/dist/plot_decorator_pkg-0.1.0-py3-none-any.whl
+python run_plot.py 
+python -c "import plot_decorator_pkg; print(dir(plot_decorator_pkg))"
+cd
+deactivate
+cd test_env/
+ls
+nano run_plot.py 
+cd 
+cd plot_decorator_pkg/
+uv build
+cd
+cd test_env/
+source .venv/bin/activate
+pip install ../plot_decorator_pkg/dist/plot_decorator_pkg-0.1.0-py3-none-any.whl
+python run_plot.py 
+python -c "import plot_decorator_pkg; print(dir(plot_decorator_pkg))"
+cd 
+deactive
+deactivate
+cd plot_decorator_pkg/
+uv rm plot_decorator_pkg
+uv remove plot_decorator_pkg
+uv sync
+uv cache clean
+ls
+uv build
+cd
+cd test_env/
+source .venv/bin/activate
+pip install ../plot_decorator_pkg/dist/plot_decorator_pkg-0.1.0-py3-none-any.whl
+python -c "import plot_decorator_pkg; print(dir(plot_decorator_pkg))"
+uv synch
+uv sync
+uv cache clean
+uv pip uninstall plot_decorator_pkg
+pip install ../plot_decorator_pkg/dist/plot_decorator_pkg-0.1.0-py3-none-any.whl
+python -c "import plot_decorator_pkg; print(dir(plot_decorator_pkg))"
+python run_plot.py 
+uv pip uninstall plot_decorator_pkg
+uv cache clean
+deactivate
+cd
+cd plot_decorator_pkg/uv build
+cd plot_decorator_pkg/
+uv cache clean
+uv synch
+uv sync
+uv build
+cd
+cd test_env/
+source .venv/bin/activate
+pip install ../plot_decorator_pkg/dist/plot_decorator_pkg-0.1.0-py3-none-any.whl
+python run_plot.py 
